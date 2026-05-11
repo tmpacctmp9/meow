@@ -1,169 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yaar Win - Play & Earn</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yaarwin Game</title>
 
-    body {
-      font-family: 'Inter', system-ui, sans-serif;
-      background: linear-gradient(180deg, #2d2e2e 0%, #000000 100%);
-      color: white;
-      min-height: 100vh;
-      text-align: center;
-      padding: 20px 15px;
-    }
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    .container {
-      max-width: 480px;
-      margin: 0 auto;
-    }
+<style>
 
-    .logo {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 4px solid #20bf6b;
-      margin-bottom: 20px;
-    }
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
 
-    h1 {
-      font-size: 2.8rem;
-      margin-bottom: 8px;
-      color: #ffffff;
-    }
+body{
+  background:#02143d;
+  color:#ffffff;
+  font-family:'Poppins',sans-serif;
+}
 
-    .subtitle {
-      font-size: 1.1rem;
-      opacity: 0.9;
-      margin-bottom: 40px;
-      line-height: 1.4;
-    }
+.logo{
+  width:100%;
+  display:block;
+}
 
-    .btn {
-      display: block;
-      width: 100%;
-      padding: 16px 20px;
-      margin: 12px 0;
-      font-size: 1.1rem;
-      font-weight: 600;
-      border: none;
-      border-radius: 14px;
-      text-decoration: none;
-      cursor: pointer;
-      transition: all 0.3s ease;
-    }
+.content{
+  padding:20px;
+}
 
-    .btn-login {
-      background: #20bf6b;
-      color: white;
-    }
+.btn{
+  width:100%;
+  display:block;
+  text-align:center;
+  text-decoration:none;
+  padding:15px;
+  border-radius:10px;
+  color:#fff;
+  font-size:18px;
+  font-weight:600;
+  margin-bottom:15px;
+}
 
-    .btn-register {
-      background: #eb3b5a;
-      color: white;
-    }
+.register{
+  background:#b30000;
+}
 
-    .btn-telegram {
-      background: #fed330;
-      color: #000;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-    }
+.login{
+  background:#00994d;
+}
 
-    .btn:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-    }
+.text p{
+  font-size:15px;
+  line-height:1.9;
+  color:#e3e3e3;
+  margin-top:18px;
+}
 
-    .image-container {
-      margin: 30px 0;
-      border-radius: 16px;
-      overflow: hidden;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-    }
+.section{
+  margin-top:38px;
+}
 
-    .image-container img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
+.section h2{
+  font-size:24px;
+  margin-bottom:14px;
+  color:#fff;
+}
 
-    .support-text {
-      margin: 30px 0 20px;
-      font-size: 1rem;
-      opacity: 0.85;
-    }
+.section p{
+  font-size:14px;
+  line-height:1.9;
+  color:#dddddd;
+  margin-top:10px;
+}
 
-    footer {
-      margin-top: 50px;
-      font-size: 0.9rem;
-      opacity: 0.6;
-    }
-  </style>
+.features{
+  margin-top:18px;
+}
+
+.features li{
+  list-style:none;
+  font-size:14px;
+  color:#e2e2e2;
+  margin-bottom:12px;
+  line-height:1.8;
+}
+
+.footer{
+  text-align:center;
+  margin-top:40px;
+  padding-bottom:25px;
+  font-size:13px;
+  color:#9ca3af;
+}
+
+</style>
 </head>
+
 <body>
-  <div class="container">
-    <!-- Logo -->
-    <img src="https://media.mssg.space/thumbnails/small/w/69eb341cac3c54f8a37faa72/websites/69fae586ac3c54f8a324200d/Yaarwin.logo_-989x1024_1778211764554.jpeg" 
-         alt="Yaar Win Logo" class="logo">
 
-    <!-- Title & Subtitle -->
-    <h1>Yaar Win</h1>
-    <p class="subtitle">You can make lots of love and Fun and enjoy here</p>
+<img src="https://i.imgur.com/x7K6H4h.jpeg" class="logo">
 
-    <!-- Buttons -->
-    <a href="https://yaarwin1.com/#/register?invitationCode=65132399173" 
-       class="btn btn-login" target="_blank">Login Now</a>
-    
-    <a href="https://yaarwin1.com/#/register?invitationCode=65132399173" 
-       class="btn btn-register" target="_blank">Register Now</a>
+<div class="content">
 
-    <!-- Image -->
-    <div class="image-container">
-      <img src="https://media.mssg.space/thumbnails/medium/w/69eb341cac3c54f8a37faa72/websites/69fae586ac3c54f8a324200d/hwpE1voXj3iYEACxoFwfLv_1778211655839.jpeg" 
-           alt="Yaar Win">
-    </div>
+<a href="https://your-referral-link.com" class="btn register">
+Register Here
+</a>
 
-    <!-- Telegram Support -->
-    <a href="https://t.me/YaarwinCSRbot" 
-       class="btn btn-telegram" target="_blank">
-      <span>💬</span>
-      Telegram Support
-    </a>
+<a href="https://your-referral-link.com" class="btn login">
+Login Here
+</a>
 
-    <p class="support-text">
-      The Ads Be Setup By Telegram: <strong>@boatleee1509</strong>
-    </p>
+<div class="text">
 
-    <footer>
-      &copy; 2026 Yaar Win • All Rights Reserved
-    </footer>
-  </div>
+<p>
+Yaarwin Game is a fun place where users can enjoy exciting quiz games, entertaining activities, and engaging online experiences. The platform is designed for users who enjoy challenges, learning activities, and interactive entertainment.
+</p>
 
-  <script>
-    // Simple animation on load
-    document.addEventListener('DOMContentLoaded', () => {
-      const buttons = document.querySelectorAll('.btn');
-      buttons.forEach((btn, index) => {
-        btn.style.opacity = '0';
-        btn.style.transform = 'translateY(20px)';
-        setTimeout(() => {
-          btn.style.transition = 'all 0.6s ease';
-          btn.style.opacity = '1';
-          btn.style.transform = 'translateY(0)';
-        }, 300 + index * 100);
-      });
-    });
-  </script>
+<p>
+Users can explore a variety of games, brain exercises, and educational activities that help improve focus, thinking skills, and entertainment experiences. Whether you like casual games or challenging quizzes, there is something for everyone.
+</p>
+
+<p>
+The platform is smooth, mobile friendly, and simple to use for both new and experienced users. Yaarwin provides a clean and user-friendly interface so users can easily access features and explore activities anytime.
+</p>
+
+<p>
+It’s not only about games. Yaarwin also focuses on educational and skill-based activities that can help users improve concentration, memory, and problem-solving abilities through interactive experiences.
+</p>
+
+<p>
+The platform works smoothly on mobile devices and offers a fast browsing experience. Users can enjoy entertainment activities, explore features, and access the platform easily without complicated steps.
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>Platform Features</h2>
+
+<ul class="features">
+
+<li>✔ Simple and user-friendly interface</li>
+
+<li>✔ Smooth mobile experience</li>
+
+<li>✔ Educational and brain exercise activities</li>
+
+<li>✔ Interactive quiz and entertainment games</li>
+
+<li>✔ Fast access and easy navigation</li>
+
+<li>✔ Designed for all types of users</li>
+
+</ul>
+
+</div>
+
+<div class="section">
+
+<h2>About Us</h2>
+
+<p>
+Yaarwin Platform is an informational and entertainment-based platform created to provide users with a simple and engaging online experience. Our goal is to make platform navigation easy and accessible for everyone.
+</p>
+
+<p>
+We focus on providing a safe, smooth, and enjoyable environment where users can explore entertainment activities and educational experiences together.
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>Contact Us</h2>
+
+<p>
+For questions, support, or general information, users can connect through the official platform communication channels. Our support team is available to assist users with platform-related guidance and navigation.
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>Privacy Policy</h2>
+
+<p>
+Yaarwin Platform respects user privacy and follows standard security and data protection practices. We only collect basic information necessary for platform functionality and support purposes.
+</p>
+
+<p>
+User information is handled securely and is not sold or shared with unauthorized third parties.
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>Disclaimer</h2>
+
+<p>
+This website is created for informational and educational purposes only. Yaarwin Platform does not promote or provide any real-money gaming services.
+</p>
+
+<p>
+No guarantees of earnings or rewards are made. Users are advised to make their own decisions and follow all applicable local laws and regulations before using any online platform services.
+</p>
+
+<p>
+This platform is intended for users aged 18 years and above.
+</p>
+
+</div>
+
+<div class="footer">
+© 2026 Yaarwin Game. All Rights Reserved.
+</div>
+
+</div>
+
 </body>
 </html>
